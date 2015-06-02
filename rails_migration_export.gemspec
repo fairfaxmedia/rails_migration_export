@@ -7,12 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "rails_migration_export"
   spec.version       = RailsMigrationExport::VERSION
   spec.authors       = ["Simon Hildebrandt"]
-  spec.email         = ["simonhildebrandt@gmail.com"]
-  #spec.email         = ["simon.hildebrandt@fairfaxmedia.com.au"]
+  spec.email         = ["simon.hildebrandt@fairfaxmedia.com.au"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A tool that logs out the SQL generated during a migration.}
+  spec.description   = %q{A tool that logs out the SQL generated during a migration.}
+  spec.homepage      = "https://github.com/fairfaxmedia/rails_migration_export"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
