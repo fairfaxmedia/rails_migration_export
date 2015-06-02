@@ -20,9 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-run `rake db:migrate_export_sql[<migration_command>]` to run that migration and output the SQL generated.
+run `rake db:migrate_export_sql[<migration_command>]` to run that migration and output the SQL generated. (Note that the migration described *will* be run.)
 
-(Note that the migration described *will* be run.)
+(`migration_command` defaults to `db:migrate:redo`, to make migration development easier.)
 
 ## Development
 
