@@ -1,8 +1,6 @@
 # RailsMigrationExport
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rails_migration_export`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A tool that logs out the SQL generated during a migration.
 
 ## Installation
 
@@ -22,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+run `rake db:migrate_export_sql[<migration_command>]` to run that migration and output the SQL generated.
+
+(Note that the migration described *will* be run.)
 
 ## Development
 
